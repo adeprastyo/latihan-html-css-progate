@@ -150,10 +150,133 @@ button {
   color: white;
   padding: 50px;
 }
+
 .footer-link {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+}
+
+.footer-title {
+  letter-spacing: 10px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* Style untuk tablet atau layar dengan lebar maksimum 768px */
+  .nav {
+    padding: 20px;
+  }
+
+  .nav h1 {
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
+  ul {
+    gap: 40px;
+  }
+
+  .hero-name {
+    font-size: 4rem;
+  }
+
+  .hero-sub-title {
+    font-size: 24px;
+  }
+
+  .about-section {
+    padding: 50px;
+  }
+
+  .project-section {
+    padding: 50px;
+  }
+
+  .project-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    width: 200px;
+  }
+
+  .contact-email,
+  .contact-message {
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+    font-size: 14px;
+  }
+
+  button {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Style untuk smartphone atau layar dengan lebar maksimum 480px */
+  .nav {
+    padding: 10px;
+  }
+
+  .nav h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  ul {
+    gap: 20px;
+  }
+
+  .hero-name {
+    font-size: 3rem;
+  }
+
+  .hero-sub-title {
+    font-size: 18px;
+  }
+
+  .about-section {
+    padding: 30px;
+  }
+
+  .project-section {
+    padding: 30px;
+  }
+
+  .project-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    width: 150px;
+  }
+
+  .contact-email,
+  .contact-message {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 12px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
 }
