@@ -226,16 +226,19 @@ button {
 @media only screen and (max-width: 480px) {
   /* Style untuk smartphone atau layar dengan lebar maksimum 480px */
   .nav {
-    padding: 10px;
+    padding: 20px;
   }
 
   .nav h1 {
-    font-size: 20px;
+    width: 100%;
+    font-size: 1.2rem;
     letter-spacing: 3px;
   }
 
   ul {
-    gap: 20px;
+    width: 100%;
+    gap: 10px;
+    font-size: 0.7rem;
   }
 
   .hero-name {
@@ -250,6 +253,13 @@ button {
     padding: 30px;
   }
 
+  .about-content {
+    font-weight: 100;
+    font-size: 0.9rem;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+  }
+
   .project-section {
     padding: 30px;
   }
@@ -260,13 +270,20 @@ button {
   }
 
   .card img {
+    margin: 20px 0px 5px 0px;
     width: 150px;
+  }
+
+  .contact-section {
+    padding: 40px 100px;
   }
 
   .contact-email,
   .contact-message {
     width: 100%;
     max-width: 100%;
+    padding: 10px;
+    height: 2rem;
     min-width: 100%;
     font-size: 12px;
   }
@@ -277,6 +294,18 @@ button {
   }
 
   .footer {
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-title {
+    margin-bottom: 10px;
+  }
+
+  .footer-link {
+    gap: 0;
   }
 }
